@@ -1,0 +1,3 @@
+# Windows / Ubuntu 양쪽에서 작업하므로 저장소 안에서는 LF로 통일한다.
+# 이걸 안 하면 OS를 옮길 때마다 파일 전체가 변경된 것으로 잡혀 diff가 오염된다.
+* text=auto eol=lf

@@ -11,10 +11,25 @@
 
 ## 환경 메모
 
-- 이 PC는 Windows다. `~` = `C:\Users\MSI`
-  - `~/TIL` → `C:\Users\MSI\TIL`
-  - `~/til-bot/today_url.txt` → `C:\Users\MSI\til-bot\today_url.txt`
+**주 작업 PC는 Ubuntu다.** Windows PC는 보조 (최초 세팅을 여기서 함).
+
+| | Ubuntu (주) | Windows (보조) |
+|---|---|---|
+| 저장소 | `~/TIL` | `C:\Users\MSI\TIL` |
+| URL 기록 | `~/til-bot/today_url.txt` | `C:\Users\MSI\til-bot\today_url.txt` |
+
 - 저장소 **내부** 경로는 OS와 무관하게 `YYYY/MM/YYYY-MM-DD.md` 형식을 유지한다.
+  이 규칙이 GitHub URL을 결정한다.
+- 줄바꿈은 `.gitattributes`의 `* text=auto eol=lf`로 LF 통일. 임의로 바꾸지 말 것.
+- 두 PC를 오갈 때는 작업 시작 전 `git pull` 을 먼저 한다. 안 그러면 다음 push가 거부된다.
+- 인증(`gh auth login` / git credential)은 **PC마다 따로** 해야 한다. 저장소를 clone 했다고 인증이 따라오지 않는다.
+
+## 원격 저장소
+
+- `origin` = `https://github.com/Choi-sungjin/PA_TIL.git` (**public**)
+- public이므로 강의 자료 원문을 그대로 옮기지 않는다. 위 저작권 항목 참고.
+- 제출용 URL: `https://github.com/Choi-sungjin/PA_TIL/blob/main/YYYY/MM/YYYY-MM-DD.md`
+- 검증용 raw URL: `https://raw.githubusercontent.com/Choi-sungjin/PA_TIL/main/YYYY/MM/YYYY-MM-DD.md`
 
 ## 저작권
 
