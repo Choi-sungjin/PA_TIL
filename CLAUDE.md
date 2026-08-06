@@ -2,6 +2,8 @@
 
 - 파일 경로: `YYYY/MM/YYYY-MM-DD.md` 고정. 이 규칙이 URL을 결정하므로 변경 금지.
 - 커밋 메시지: `docs: TIL YYYY-MM-DD` 형식
+- **커밋 메시지에 `Co-Authored-By:` 트레일러를 넣지 않는다.**
+  GitHub이 공동 작성자로 읽어 "Choi-sungjin and claude"로 표시된다. 본인 단독 기록으로 남긴다.
 - 브랜치: main 하나만 사용 (PR 실습 시에만 til/YYYY-MM-DD)
 - force push, history 재작성 금지
 - 커밋 전 파일이 300자 이상인지 확인. 미만이면 미작성으로 보고 중단.
