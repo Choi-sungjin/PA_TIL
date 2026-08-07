@@ -4,3 +4,8 @@ __pycache__/
 chrome-profile/
 *.log
 *.png
+
+# 강의 전사본은 저장소에 절대 넣지 않는다 (공개 저장소 · 강의 원문)
+transcripts/
+*.transcript.txt
+거부된초안_*.md
