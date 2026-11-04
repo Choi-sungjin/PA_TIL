@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>주사위 기억 로봇 - 모션그래픽</title>
+<link rel="stylesheet" href="fonts/noto.css">
+<style>
+  html,body{margin:0;background:#0B1118;overflow:hidden}
+  canvas{display:block;width:1920px;height:1080px}
+</style>
+</head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<!-- window.seek(t): t초 시점 프레임을 결정적으로 그림 (Math.random / rAF 미사용). 데이터: script.json, timing.json -->
+<script src="plan.js"></script>
+<script src="schedule.js"></script>
+<script src="core.js"></script>
+<script src="map.js"></script>
+<script src="scenes_a.js"></script>
+<script src="scenes_b.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
